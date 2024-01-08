@@ -1,0 +1,31 @@
+body {
+    font-family: sans-serif;
+}
+
+p {
+    color: maroon;
+  }
+
+.greentea {
+    color: green;
+}
+
+p.raspberry {
+    color: purple;
+}
+
+p.blueberry {
+    color:blue;
+}
+
+p.cranberry {
+    color: red;
+}
+
+h1, h2 {
+    color: gray;
+  }
+
+h1 {
+  text-decoration: underline;
+  }
