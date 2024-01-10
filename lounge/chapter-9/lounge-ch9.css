@@ -16,16 +16,17 @@ h2 {
 font-size: 130%;
 }
 
-.guarantee {
+#guarantee {
     background-color: #007e7e;
     font-family: Georgia, Times New Roman, serif;
     font-style: italic;
     padding: 25px;
     padding-left: 80px;
     margin: 30px;
-    border-style: solid;
+    margin-right: 250px;
+    border-style: dashed;
     border-width: 1px;
-    border-color: black;
+    border-color: white;
     line-height: 1.9em;
     color: #444444;
     background-image: url(images/background.gif);
