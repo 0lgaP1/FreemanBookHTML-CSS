@@ -1,6 +1,7 @@
 body {
     font: small/1.6em Verdana, Helvetica, Arial, sans-serif;
-}
+    line-height: 2em;
+  }
 
 h1, h2 {
     color: #007e7e;
@@ -14,29 +15,24 @@ h2 {
     font-size: 130%;
 }
 
-/* #mainpage {
-    width: ;
-    
-} */
-
 #guarantee {
     font-family: Georgia, Times New Roman, serif;
     font-style: italic;
-    padding: 25px;
-    padding-left: 80px;
-    margin: 30px;
-    margin-right: 250px;
+    padding: 40px;
+    padding-left: 100px;
+    margin: 40px;
+    margin-right: 400px;
     border-style: dashed;
     border-width: 1px;
     border-color: white;
-    line-height: 1.9em;
+    line-height: 2em;
     color: black;
     background: url(images/background.gif) no-repeat top left #007e7e;
 }
 
 #elixirs {
     border: solid #007e7e thin;
-    width: 30%;
+    width: 300px;
     padding-right: 20px;
     padding-left: 20px;
     margin-left: 20px;
@@ -58,7 +54,7 @@ h2 {
     font-size: x-small;
     text-align: center;
     line-height: normal;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 .artist {
