@@ -27,6 +27,15 @@ body {
   vertical-align: top;
  }
 
+ #drinks {
+  display: table-cell;
+  vertical-align: top;
+  background:       #efe5d0 url(images/background.gif) bottom right;
+  font-size:        105%;
+  padding:          15px;
+
+ }
+
 #footer {
   background-color: #675c47;
   color:            #efe5d0;
@@ -68,4 +77,8 @@ div#tableContainer {
 
 div#tableRow {
   display: table-row;
+}
+
+#headerSlogan {
+  float: right;
 }
