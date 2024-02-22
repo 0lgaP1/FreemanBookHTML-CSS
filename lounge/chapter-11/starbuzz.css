@@ -27,7 +27,7 @@ aside {
   vertical-align: top;
 }
 
-section#drinks {
+section#drinks, section#main {
   display: table-cell;
   vertical-align: top;
   background:       #efe5d0 url(images/background.gif) bottom right;
@@ -40,8 +40,9 @@ footer {
   color:            #efe5d0;
   text-align:       center;
   padding:          15px;
-  margin:           0 10px 10px 10px;
+  margin:           0 0 10px 10px;
   font-size:        90%;
+  width: 96%;
 }
 
 h1 {
