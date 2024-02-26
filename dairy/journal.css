@@ -74,6 +74,7 @@ th {
     background-color:#ffd17d;
 } */
 
-tr>table#little {
-    text-align: right;
+table table th {
+    background-color: transparent;
+    font-weight: lighter;
 }
