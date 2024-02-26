@@ -26,5 +26,54 @@ h2 {
 
 em {
     font-style: italic;
-   
+}
+
+li {
+    list-style-image: url(images/backpack.png);
+    padding-top: 5px;
+    margin-left: 60px;
+}
+
+table {
+    border: thin solid black;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    caption-side: bottom;
+
+}
+
+td, th {
+    border: thin dotted grey;
+    padding: 5px;
+}
+
+caption {
+    font-style: italic;
+    padding-top: 8px;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+th {
+    overflow-wrap: break-word;
+    background-color: orange;
+}
+
+.cellcolor {
+    background-color: #ffd17d;
+}
+
+/* tr:nth-child(odd) {
+    background-color:#ffd17d;
+} */
+
+tr>table#little {
+    text-align: right;
 }
