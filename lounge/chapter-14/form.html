@@ -4,13 +4,33 @@
     <meta charset="utf-8">
     <title>Enter the Contest</title>
   </head>
-  <body>
-    <form action="http://wickedlysmart.com/hfhtmlcss/contest.php" method="POST">
-      <p>Just type in your name (and click Submit) to enter the contest:<br>
+  <br>
+    <br action="http://wickedlysmart.com/hfhtmlcss/contest.php" method="POST">
+      <br>ВВедите текст<br>
 
-        First name: <input type="text" name="firstname" value=""><br>
-        Last name:  <input type="text" name="lastname" value=""><br>
-        <input type="submit">
+        Выберите кофе: 
+        <select name="">
+          <option value="home" selected>Домашняя смесь</option>
+          <option value="Bol">Боливия</option>
+          <option value="Gwa">Гватемала</option>
+          <option value="Ken">Кения</option>
+        </select></br>
+
+        Тип: <input type="radio" name="typeofcoffee" value="Кофе в зернах" />
+        <input type="radio" name="typeofcoffee" value="Молотый" checked /></br>
+
+        Дополнительные услуги: <input type="checkbox" name="addservice" value="Подарочная упаковка" />
+        <input type="checkbox" name="addservice" value="Доставка каталога вместе с заказом" selected/></br>
+
+        Доставить по адресу:
+        Имя: <input type="text" name="firstname" value=""><br>
+        Адрес:  <input type="text" name="adress" value=""><br>
+        Город:  <input type="text" name="city" value=""><br>
+        Страна:  <input type="text" name="country" value=""><br>
+        Почтовый индекс:  <input type="text" name="zip" value=""><br>
+        Телефон: <input type="tel" name="number" value=""><br>
+        <textarea name="textarea" id="textareaform" placeholder="Напишите нам!" row="20" col="10"></textarea>
+        <input type="submit" value="Заказать">
       </p>
     </form>
   </body>
