@@ -1,21 +1,22 @@
 <!DOCTYPE html>
 <br>
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8">    
+    <link type="text/css" rel="stylesheet" href="../chapter-12/blog-style.css">
+    <link type="text/css" rel="stylesheet" href="styledform.css">
     <title>Enter the Contest</title>
   </head>
-  
+  <body>
+    <p>Заполните форму, чтоб заказать кофе с доставкой</p>
       <form action="http://starbuzzcoffee.com/processorder.php" method="POST">
         <div class="tableRow">
-        <br>Введите текст<br>
-          <p>Выберите кофе: 
+          <p>Выберите кофе: </p>
             <select name="beans">
               <option value="home" >Домашняя смесь</option>
               <option value="Bol">Боливия</option>
               <option value="Gwa">Гватемала</option>
               <option value="Ken" selected>Кения</option>
             </select>
-          </p>
         </div>
 
         <div class="tableRow">
@@ -68,7 +69,7 @@
           <p>Почтовый индекс:  </p>
           <p><input type="text" name="zip" value=""></p>
         </div>
-        <div>
+        <div class="tableRow">
           <p>Телефон: </p>
           <p><input type="tel" name="number" value=""></p>
         </div>
