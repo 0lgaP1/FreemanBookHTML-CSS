@@ -1,38 +1,89 @@
 <!DOCTYPE html>
-<html>
+<br>
   <head>
     <meta charset="utf-8">
     <title>Enter the Contest</title>
   </head>
-  <br>
-    <br action="http://wickedlysmart.com/hfhtmlcss/contest.php" method="POST">
-      <br>ВВедите текст<br>
+  
+      <form action="http://starbuzzcoffee.com/processorder.php" method="POST">
+        <div class="tableRow">
+        <br>Введите текст<br>
+          <p>Выберите кофе: 
+            <select name="beans">
+              <option value="home" >Домашняя смесь</option>
+              <option value="Bol">Боливия</option>
+              <option value="Gwa">Гватемала</option>
+              <option value="Ken" selected>Кения</option>
+            </select>
+          </p>
+        </div>
 
-        Выберите кофе: 
-        <select name="">
-          <option value="home" selected>Домашняя смесь</option>
-          <option value="Bol">Боливия</option>
-          <option value="Gwa">Гватемала</option>
-          <option value="Ken">Кения</option>
-        </select></br>
+        <div class="tableRow">
+          <p>Тип: </p>
+          <p>
+            <input type="radio" name="typeofcoffee" value="зерна" /> Кофе в зернах<br>
+            <input type="radio" name="typeofcoffee" value="молотый" checked /> Молотый кофе <br>
+          </p>
+        </div>
+        
+        <div class="tableRow">
+          <p> Количество пакетиков: </p>
+          <p><input type="number" name="bags" min="0" max="10" /><br></p>
+        </div>
+        
+        <div class="tableRow">
+          <p>Доставить к указанной дате:</p>
+          <p><input type="date" name="date"> <br></p>
+        </div>
 
-        Тип: <input type="radio" name="typeofcoffee" value="Кофе в зернах" />
-        <input type="radio" name="typeofcoffee" value="Молотый" checked /></br>
+        <div class="tableRow">
+          <p>Дополнительные услуги: </p>
+          <p>
+            <input type="checkbox" name="extras[]" value="wrap" />Подарочная упаковка<br>
+            <input type="checkbox" name="extras[]" value="" checked />Доставка каталога вместе с заказом<br>
+          </p>
+        </div>
 
-        Дополнительные услуги: <input type="checkbox" name="addservice" value="Подарочная упаковка" />
-        <input type="checkbox" name="addservice" value="Доставка каталога вместе с заказом" selected/></br>
+        <div class="tableRow">
+          <p class="heading"> Доставить по адресу: </p>
+          <p></p>
+        </div>
+        <div class="tableRow">
+          <p>Имя: </p>
+          <p><input type="text" name="firstname" value=""></p>
+        </div>
+        <div class="tableRow">
+          <p>Адрес:  </p>
+          <p><input type="text" name="adress" value=""></p>
+        </div>
+        <div class="tableRow">
+          <p>Город:  </p>
+          <p><input type="text" name="city" value=""></p>
+        </div>
+        <div class="tableRow">
+          <p>Страна: </p>
+          <p><input type="text" name="country" value=""></p>
+        </div>
+        <div class="tableRow">
+          <p>Почтовый индекс:  </p>
+          <p><input type="text" name="zip" value=""></p>
+        </div>
+        <div>
+          <p>Телефон: </p>
+          <p><input type="tel" name="number" value=""></p>
+        </div>
 
-        Доставить по адресу:
-        Имя: <input type="text" name="firstname" value=""><br>
-        Адрес:  <input type="text" name="adress" value=""><br>
-        Город:  <input type="text" name="city" value=""><br>
-        Страна:  <input type="text" name="country" value=""><br>
-        Почтовый индекс:  <input type="text" name="zip" value=""><br>
-        Телефон: <input type="tel" name="number" value=""><br>
-        <textarea name="textarea" id="textareaform" placeholder="Напишите нам!" row="20" col="10"></textarea>
-        <input type="submit" value="Заказать">
-      </p>
-    </form>
-  </body>
+      <div class="tableRow">
+        <p>Комментарии клиентов: </p>
+        <p><textarea name="comments" placeholder="Напишите нам!" row="20" col="10"></textarea>
+        </p>
+      </div>
+      
+      <div class="tableRow">
+        <p></p>
+        <p><input type="submit" value="Заказать сейчас"></p>
+      </div>
+      </form>
+    </body>
 </html>
 
